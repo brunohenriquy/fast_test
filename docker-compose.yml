@@ -1,0 +1,6 @@
+services:
+  fast_test:
+    container_name: fast_test
+    build:
+      context: .
+      dockerfile: Dockerfile
